@@ -5,7 +5,8 @@ export const Logo: React.FC = () => {
   const classes = useLogoStyles();
   return (
     <div className={classes.container}>
-      <span> logo</span>
+      M
+      <span className={classes.span}>X.</span>
     </div>
   );
 };

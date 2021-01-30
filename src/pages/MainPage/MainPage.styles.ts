@@ -4,5 +4,6 @@ export const useMainPageStyles = createUseStyles({
   container: {
     maxWidth : "1200px",
     margin : "0 auto",
+    fontFamily : "Lexend"
   },
 });

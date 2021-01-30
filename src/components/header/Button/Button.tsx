@@ -5,7 +5,7 @@ export const Button: React.FC = (props) => {
   const classes = useButtonStyles();
   return (
     <div className={classes.container}>
-      <button>
+      <button className={classes.button}>
           {props.children}
       </button>
     </div>

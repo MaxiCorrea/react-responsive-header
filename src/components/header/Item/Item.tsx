@@ -9,7 +9,9 @@ export const Item: React.FC<ItemProps> = (props) => {
   const classes = useItemStyles();
   return (
     <li className={classes.container}>
-      <a href="#">{props.caption}</a>
+      <a className={classes.a} href="#">
+        {props.caption}
+      </a>
     </li>
   );
 };
