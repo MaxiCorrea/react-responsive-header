@@ -1,5 +1,12 @@
 import { createUseStyles } from "react-jss";
 
 export const useHeaderStyles = createUseStyles({
-  container: {},
+  container: {
+    display : "flex",
+    justifyContent : "space-between",
+    padding : "30px 90px",
+    alignItems : "center",
+    color : "#fff",
+    backgroundColor : "#ef6194"
+  },
 });

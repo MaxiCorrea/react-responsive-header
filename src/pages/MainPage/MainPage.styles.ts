@@ -1,5 +1,8 @@
 import { createUseStyles } from "react-jss";
 
 export const useMainPageStyles = createUseStyles({
-  container: {},
+  container: {
+    maxWidth : "1200px",
+    margin : "0 auto",
+  },
 });
