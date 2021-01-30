@@ -5,6 +5,10 @@ export const useImageStyles = createUseStyles({
     display : "flex",
     justifyContent : "center",
     backgroundColor : "#fff",
-    fontFamily : "Lexend"
+    fontFamily : "Lexend",
   },
+  image : {
+    maxWidth: "100%",
+    height: "auto",
+  }
 });

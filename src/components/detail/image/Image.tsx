@@ -6,7 +6,7 @@ export const Image: React.FC = () => {
   const classes = useImageStyles();
   return (
     <div className={classes.container}>
-      <img src={GoLang.toString()} alt={"golang"} />
+      <img className={classes.image} src={GoLang.toString()} alt={"golang"} />
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Description } from "../Description/Description";
 import { Title } from "../Title/Title";
-import { Image } from "../Image/Image";
+import { Image } from "../image/Image";
 import { useDetailStyles } from "./Detail.styles";
 
 export const Detail: React.FC = () => {
@@ -14,7 +14,7 @@ export const Detail: React.FC = () => {
         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
       </Description>
-      <Image></Image>
+      <Image/>
       <Description>
         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

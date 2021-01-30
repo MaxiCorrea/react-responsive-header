@@ -6,6 +6,6 @@ export const useDetailStyles = createUseStyles({
     backgroundColor : "#fff",
     lineHeight : "1.5",
     color : "#444",
-    fontFamily : "Lexend"
+    fontFamily : "Lexend",
   },
 });
