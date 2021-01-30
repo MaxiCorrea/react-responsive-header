@@ -13,5 +13,8 @@ export const useButtonStyles = createUseStyles({
     border : "2px solid #fff",
     borderRadius : "4px",
     backgroundColor : "transparent",
+    "&:hover" : {
+      backgroundColor : "rgba(255,255,255,.1)",
+    }
   }
 });
