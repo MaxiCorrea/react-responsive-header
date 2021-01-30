@@ -7,7 +7,7 @@ export const useHeaderStyles = createUseStyles({
     padding : "30px 90px",
     alignItems : "center",
     color : "#fff",
-    backgroundColor : "#ef6194",
+    backgroundColor : "#6ebae6",
     fontFamily : "Lexend"
   },
 });

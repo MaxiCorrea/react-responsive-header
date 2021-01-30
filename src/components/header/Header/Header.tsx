@@ -11,9 +11,9 @@ export const Header: React.FC = () => {
     <header className={classes.container}>
       <Logo/>
       <Menu>
-        <Item caption={"Portfolio"} />
-        <Item caption={"Pricing"} />
-        <Item caption={"Contact"} />
+        <Item caption={"Item 1"} />
+        <Item caption={"Item 2"} />
+        <Item caption={"Item 3"} />
       </Menu>
       <Button>Buy Now</Button>
     </header>

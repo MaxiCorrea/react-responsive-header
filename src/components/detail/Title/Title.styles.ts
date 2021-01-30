@@ -2,6 +2,7 @@ import { createUseStyles } from "react-jss";
 
 export const useTitleStyles = createUseStyles({
   container: {
-    fontFamily : "Lexend"
+    fontFamily : "Lexend",
+    marginBotton : "10px",
   },
 });

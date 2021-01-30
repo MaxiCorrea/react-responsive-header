@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Detail } from "../../components/detail/Detail/Detail";
 import { Header } from "../../components/header/Header/Header";
 import { useMainPageStyles } from "./MainPage.styles";
 
@@ -7,6 +8,7 @@ export const MainPage: React.FC = () => {
   return (
     <div className={classes.container}>
       <Header></Header>
+      <Detail></Detail>
     </div>
   );
 };
