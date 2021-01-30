@@ -1,8 +1,9 @@
 import { createUseStyles } from "react-jss";
 
 export const useMenuStyles = createUseStyles({
-  container: {
+  ul: {
     listStyleType : "none",
-    fontFamily : "Lexend"
-  },
+    fontFamily : "Lexend",
+    marginLeft: "-40px",
+  }
 });
