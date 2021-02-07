@@ -8,7 +8,8 @@ export const useImageStyles = createUseStyles({
     fontFamily : "Lexend",
   },
   image : {
-    maxWidth: "100%",
-    height: "auto",
+    objectFit : "cover",
+    width: "100%",
+    height: "100%",
   }
 });
